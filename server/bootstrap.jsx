@@ -7,8 +7,8 @@ function Bootstrap(data) {
     this.data = data;
 }
 
-Bootstrap.prototype.pepe = function *() {
-    var staticHtml = React.renderToString(<Hello name="Frannnk" />);
+Bootstrap.prototype.load = function *(data) {
+    var staticHtml = React.renderToString(<Hello question={data.question} />);
     var tmp = new Template("../views/index.html");
     return yield tmp.render({ app: staticHtml });
 };

@@ -7,7 +7,7 @@
 var koa = require('koa');
 var middlewares = require('koa-middlewares');
 var path = require('path');
-var config = require('./config');
+var config = require('./config')();
 var routes = require('./routes');
 
 var app = module.exports = koa();

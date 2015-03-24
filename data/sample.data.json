@@ -1,0 +1,62 @@
+[
+	{
+		"question": "Which scientist discovered the radioactive element radium?",
+		"answers": [{
+			"option": "Isaac Newton",
+			"iscorrect": false
+		}, {
+			"option": "Albert Einstein",
+			"iscorrect": false
+		}, {
+			"option": "Benjamin Franklin",
+			"iscorrect": false
+		}, {
+			"option": "Marie Curie",
+			"iscorrect": true
+		}],
+		"messages": {
+			"correct": "Correct!",
+			"incorrect": "Oops :("
+		}
+	},
+	{
+		"question": "What Galileo invented?",
+		"answers": [{
+			"option": "Barometer",
+			"iscorrect": false
+		}, {
+			"option": "Pendulum clock",
+			"iscorrect": false
+		}, {
+			"option": "Thermometer",
+			"iscorrect": true
+		}, {
+			"option": "Microscope",
+			"iscorrect": false
+		}],
+		"messages": {
+			"correct": "Correct!",
+			"incorrect": "Oops :("
+		}
+	},
+	{
+		"question": "Who invented Jet Engine?",
+		"answers": [{
+			"option": "Sir Frank Whittle",
+			"iscorrect": true
+		}, {
+			"option": "Gottlieb Daimler",
+			"iscorrect": false
+		}, {
+			"option": "Roger Bacon",
+			"iscorrect": false
+		}, {
+			"option": "Lewis E. Waterman",
+			"iscorrect": false
+		}],
+		"messages": {
+			"correct": "Correct!",
+			"incorrect": "Oops :("
+		}
+	}
+]

@@ -1,16 +1,16 @@
 {
-  "name": "koaquiz",
+  "name": "koa-react-quiz",
   "version": "0.0.1",
   "description": "A simple quiz application using Koajs, mongodb and React",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony index.js",
-    "start:dev": "nodemon --harmony index.js",
+    "start": "node --harmony index.js prod",
+    "start:dev": "nodemon --harmony index.js local",
     "build-dev": "browserify -e server/bootstrap.jsx -t reactify -o public/scripts/bundle.js -d"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/framini/koaquiz.git"
+    "url": "https://github.com/framini/koa-react-quiz.git"
   },
   "keywords": [
     "koa",
@@ -24,13 +24,17 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/framini/koaquiz/issues"
+    "url": "https://github.com/framini/koa-react-quiz/issues"
   },
-  "homepage": "https://github.com/framini/koaquiz",
+  "homepage": "https://github.com/framini/koa-react-quiz",
   "dependencies": {
+    "co": "^4.5.1",
     "co-fs": "^1.2.0",
+    "co-monk": "^1.0.0",
     "koa": "^0.18.1",
     "koa-middlewares": "^2.1.0",
+    "lodash": "^3.5.0",
+    "monk": "0.8.0",
     "react": "^0.13.1"
   },
   "devDependencies": {

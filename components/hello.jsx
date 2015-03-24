@@ -2,7 +2,7 @@ var React = require('react');
 
 var Hello = React.createClass({
     render: function() {
-        return <div>Hello {this.props.name}</div>;
+        return <div>{this.props.question}</div>;
     }
 });
 
